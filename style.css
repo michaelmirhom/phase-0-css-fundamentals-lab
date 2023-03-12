@@ -3,3 +3,53 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Jazz up the navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Shrink the image caption font size and center it */
+#featured-property p.caption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* Center the text block */
+#featured-property {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Make the details section horizontal */
+#details {
+  overflow: hidden;
+}
+
+#details > div {
+  float: left;
+  width: 25%;
+}
+
+/* Clean up the divs at the bottom of the page */
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  text-align: center;
+}
+
+.bottom-row > div {
+  width: 25%;
+}
